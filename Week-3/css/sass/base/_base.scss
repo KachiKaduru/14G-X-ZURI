@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+    transition: all .3s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    // font-family: ;
+    // background-color: ;
+}
+
+.container {
+    background-color: green;
+}
+
+/////font sizes
+// .fs-x{
+//     @include font($weight, x, $line-height, $letter-spacing)
+// }
+
+
+////margins
+
+
+
+//////paddings
+
+
+
+//////grid
+.grd {
+    display: grid;
+}
+
+// .grd-col-x {
+//     // @include grd-col();
+// }
+
+
+//////flex
+.flx {
+    display: flex;
+}

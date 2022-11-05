@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.container {
+  background-color: green;
+}
+
+.grd {
+  display: grid;
+}
+
+.flx {
+  display: flex;
+}
+
+@media only screen and (max-width: 1080px) {
+  .container {
+    background-color: gold;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    background-color: royalblue;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .container {
+    background-color: indianred;
+  }
+}
